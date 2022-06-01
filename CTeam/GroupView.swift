@@ -33,8 +33,9 @@ struct GroupView: View {
                 .border(.black, width: 1.0)
                 .background(.gray)
             }
+            .navigationTitle("ui.nav.groups".localized)
+            .navigationBarTitleDisplayMode(.large)
         }
-        .navigationTitle("nav.title.group".localized)
     }
 }
 

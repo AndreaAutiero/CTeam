@@ -15,17 +15,17 @@ struct ContentView: View {
         TabView {
             CircuitsView()
                 .tabItem {
-                    Label("Circuits", systemImage: "car.fill")
+                    Label("ui.nav.circuits".localized, systemImage: "car.fill")
                 }
 
             ScoreView()
                 .tabItem {
-                    Label("Score", systemImage: "cursorarrow.motionlines.click")
+                    Label("ui.nav.scores".localized, systemImage: "cursorarrow.motionlines.click")
                 }
     
             GroupView()
                 .tabItem {
-                    Label("Group", systemImage:
+                    Label("ui.nav.groups".localized, systemImage:
                     "person.3.fill")
                 }
         }.accentColor(.celesteScuro)

@@ -23,7 +23,7 @@ struct ScoreView: View {
                 
                 Spacer(minLength: 0)
             }
-            .navigationTitle("Score")
+            .navigationTitle("ui.nav.scores".localized)
             .navigationBarTitleDisplayMode(.large)
         }
     }

@@ -23,7 +23,7 @@ struct CircuitsView: View {
                 }
                 Spacer(minLength: 0)
             }
-            .navigationTitle("Circuits")
+            .navigationTitle("ui.nav.circuits".localized)
             .navigationBarTitleDisplayMode(.large)
             .searchable(text: $searchText)
             .toolbar {
