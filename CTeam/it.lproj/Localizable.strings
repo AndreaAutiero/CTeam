@@ -1,0 +1,22 @@
+/* 
+  UniNaText.strings
+  CTeam
+
+  Created by Andrea Autiero on 19/04/22.
+  
+*/
+
+"unina.cteam.poem" = "UniNa Corse Team Combustion è una associazione che fa capo all'Università degli Studi di Napoli \"Federico II\".";
+"ui.sendmail" = "Invia un feedback";
+"ui.about" = "Chi siamo";
+"ui.chat.template" = "Scrivi un messaggio!";
+"nav.title.group" = "Gruppo";
+"ui.chat.faketext.1" = "Ho provato il nuovo casco di unina in pista,chi come me in chat?";
+"ui.chat.faketext.2" = "Io l'ho provato";
+"ui.chat.faketext.3" = "Wow è fantastico";
+"ui.chat.faketext.4" = "Ho migliorato il mio tempo e avevo un ottimo controllo della macchina";
+"ui.score.lap" = "GIRI";
+"ui.score.sector" = "SETTORI";
+"ui.circuit.track" = "Circuito";
+"ui.circuit.rental" = "Rental";
+"ui.circuit.video" = "Video";

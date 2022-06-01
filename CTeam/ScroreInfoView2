@@ -1,0 +1,55 @@
+//
+//  Scroreviewinfo2.swift
+//  CTeam
+//
+//  Created by Andrea Autiero on 27/04/22.
+//
+
+import SwiftUI
+
+struct ScoreInfoView2: View {
+    var score: Score
+    var body: some View {
+        ScrollView {
+            VStack(spacing: 0) {
+                HStack {
+                    Text("Sector 1").frame(width: 74).padding()
+                    Spacer()
+                    Text("Sector 2").frame(width: 74).padding()
+                    Spacer()
+                    Text("Sector 3").frame(width: 74).padding()
+                }
+                .foregroundColor(Color.white)
+                .background(Color.init(red: 35/255, green: 36/255, blue: 41/255))
+                ForEach(Array(score.giri.enumerated()), id: \.element) { index, element in
+                    HStack {
+                        Text(String(index + 1)).bold().frame(width: 27, alignment: .leading).padding([.leading, .top, .bottom])
+                        Rectangle().fill(Color.init(Color.init(red: 28/255, green: 129/255, blue: 217/255).cgColor!)).frame(width: 5, height: 16).padding([.top,.bottom,.trailing])
+                        Spacer()
+                        if(element.gap == 0) {
+                            Text("")
+                        } else {
+                            Text(String(element.gap)).frame(width: 96, height: 28, alignment: .center).background(Color.init(red: 56/255, green: 57/255, blue: 62/255)).cornerRadius(16)
+                        }
+                        Spacer()
+                        if(element.time == 0) {
+                            Text("PIT").bold().frame(width: 96, height: 28, alignment: .center).foregroundColor(Color.red).padding()
+                        } else {
+                            Text(String(Int(element.time / 60)) + ":" + String(format: "%.3f", element.time.truncatingRemainder(dividingBy: 60))).frame(width: 96, height: 28, alignment: .center).background(Color.init(red: 56/255, green: 57/255, blue: 62/255)).cornerRadius(16).padding()
+                        }
+                    }
+                    .background(index % 2 == 0 ? Color.init(red: 28/255, green: 28/255, blue: 36/255) : Color.init(red: 35/255, green: 36/255, blue: 41/255))
+                    .foregroundColor(Color.white)
+                }
+            }
+        }
+        .background(Color.init(red: 28/255, green: 28/255, blue: 36/255))
+        .navigationBarTitle(score.nome)
+    }
+}
+
+struct ScoreInfoView_Previews: PreviewProvider {
+    static var previews: some View {
+        ScoreInfoView(score: scores[0])
+    }
+}

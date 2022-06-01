@@ -1,0 +1,53 @@
+/* 
+  UniNaText.strings
+  CTeam
+
+  Created by Andrea Autiero on 19/04/22.
+  
+*/
+
+"unina.cteam.poem" = "UniNa Corse è un’associazione costituita da docenti ed allievi dell’Università Federico II di Napoli.
+Nata nel 2010 fu rifondata nel 2015 con lo scopo di promuovere la progettazione e realizzazione di un auto da corsa per partecipare al campionato FORMULA SAE.";
+"ui.sendmail" = "Send Feedback";
+"ui.about" = "About Us";
+"ui.chat.template" = "Shout out your first message!";
+"nav.title.group" = "Group";
+"ui.chat.faketext.1" = "I tried the new unina helmet on the track, anyone else tried it?";
+"ui.chat.faketext.2" = "I tried it";
+"ui.chat.faketext.3" = "Wow it's fantastic";
+"ui.chat.faketext.4" = "I improved my time and had excellent control of the car ";
+"ui.score.lap" = "LAPS";
+"ui.score.sector" = "SECTORS";
+"ui.circuit.track" = "Track";
+"ui.circuit.rental" = "Rental";
+"ui.circuit.video" = "Video";
+"ui.circuit.track.monza.curva1" = "Si passa sul rettilineo con la quinta per mettere la sesta e raggiungere la massima velocità, si scala in seconda marcia per affrontare “la prima variante” facendo attenzione al punto di frenata.";
+"ui.circuit.track.monza.curva2" = "Usciti dalla “prima variante” si affronta la “curva grande” e si mettono 3 marce con la macchina in pieno appoggio prendendo inizialmente il punto di corda e poi allargarsi ,accelerando quasi fino al limitatore.";
+"ui.circuit.track.monza.curva3" = "Si arriva la variante della roggia si scalano 2 marce si affronta la prima curva della “seconda variante” e ci si allarga in uscita." ;
+"ui.circuit.track.monza.curva4" = "Si arriva alle “curve di lesmo” dove la prima è completamente ceca e si affronta in quartai scala una marcia sulla “seconda di lesmo." ;
+"ui.circuit.track.monza.curva5" = "Si va in discesa fino alla “variante ascari” si scalano 2 marcia e tra la prima e la seconda curva della variante ascari si mette la quarta marcia allargandosi in uscita per affrontare la “parabolica” stando stretti in ingresso e poi allargarsi in uscita.";
+"ui.circuit.track.varano.curva1" = "Si esce dall’ultima curva in terza e si mette la quarta prima del traguardo, si porta la quarta quasi al limitatore e si fa attenzione alla staccata della “prima variante” perché si arriva con ruote non del tutto dritte.";
+"ui.circuit.track.varano.curva2" = "Si sacrifica l’uscita della prima delle 2 “esse” in modo da uscire più veloci nella seconda delle 2.";
+"ui.circuit.track.varano.curva3" = "Si percorre il rettilineo con la terza a limitatore e si frena forte per entrare nella “parabolica” prendendo il punto di corda centrale, si mette la quarta per poi ri-scalare in terza sulla prima esse, senza frenare troppo dentro la curva altrimenti la macchina si scompone.";
+"ui.circuit.track.varano.curva4" = "ome nella prima parte del circuito affrontando la “2 esse” si sacrifica la prima ,si tiene la terza sia arriva a “curva 6 ” si parzializza l’ingresso per poi mettere la quarta per il rettilineo ";
+"ui.circuit.track.varano.curva5" = "Si stacca mettendo la terza per approcciare “curva 9”,tutto in terza cercando di mantenere la velocità media più alta possibile." ;
+"ui.circuit.track.varano.curva6" = "In “curva 10” si cerca di essere più larghi per approcciare meglio “curva 11”.";
+"ui.circuit.track.varano.curva7" = "Infine le ultime 2 curve la 12 e la 13 si affrontano con lo stesso angolo volante per avere sempre lo stesso trottle e uscire in terza." ;
+"ui.circuit.track.imola.curva1" = "Prima curva tamburello, dove si frena tardisissimo per poi andare in pieno fino ad arrivare alla Villeneuve(curva2)";
+"ui.circuit.track.imola.curva2" = "Curva 4 è la tosa dove si usa il cordolo in uscita facendo”Short shifting”;si continua fino alla “Piratella” (Curva 5) che si fa in pieno per poi arrivare alla frenata più difficile del circuito che è quella delle “Acque minerali “(Curva 11)" ;
+"ui.circuit.track.imola.curva" = "Si accelera in salita fino alla “Variante alta “ dove si sfrutta tutta la pista, andando in discesa fino alla “Rivazza” dove si frena molto tardi e infine “Rivazza 2” dove con lo “Short Shifting” si approccia al lunghissimo rettilineo che porta al traguardo.";
+"ui.circuit.track.monza.storia" = "Costruito nel 1922, terzo al mondo dopo quelli di Brooklands e Indianapolis, è stato teatro di alcune tra le più grandi innovazioni sportive e tecnologiche. La sua sopraelevata (link pagina dedicata) è unica al mondo e sulle sue curve sono state scritte importanti pagine dell’automobilismo mondiale ma anche della ricerca scientifica.";
+"ui.circuit.track.imola.storia" = "L’Autodromo Internazionale Enzo e Dino Ferrari è universalmente riconosciuto come un tracciato tecnico e difficile da interpretare e che richiede un profilo professionale per essere affrontato a ritmi elevati.\nIl tracciato, che segue il senso di marcia antiorario, presenta un layout sia per auto che per moto ed ha una lunghezza tra i 4.909 ed i 4.936 metri, a seconda delle configurazioni. Nell’agosto 2011 il circuito è stato anche oggetto del lavoro di riasfaltatura del manto stradale, operazione che ha riguardato il 70% del tracciato.";
+"ui.circuit.track.vallelunga.storia" = "L'autodromo Vallelunga nacque nel 1951 dalla trasformazione di un ippodromo a Campagnano di Roma. La prima corsa automobilistica ivi fu disputata il 9 dicembre su una pista di sabbia. Nel 1957, sul progetto di Piero Taruffi, fu realizzata la pista in asfalto che prevede due tracciati (Internazionale e Club).";
+"ui.rental.dttm" = "Premete sui tasti per specificare la data e l'ora";
+"car.label" = "Car";
+"ui.rental.label.volume" = "Cilindrata";
+"ui.rental.label.weight" = "Peso";
+"ui.rental.label.maxspeed" = "Velocità di punta";
+"ui.rental.label.horsepower" = "Potenza sprigionata";
+"token.label" = "Token";
+"cost.label" = "Costo";
+"rent.label" = "Affitta";
+"fakeserver.label" = "Il server delle prenotazioni non è in linea";
+"fakeserver.title" = "Avviso";
+"dismiss.label" = "Va bene";

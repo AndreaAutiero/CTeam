@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        UITabBar.appearance().backgroundColor = .systemBackground
+    }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            CircuitsView()
+                .tabItem {
+                    Label("Circuits", systemImage: "car.fill")
+                }
+
+            ScoreView()
+                .tabItem {
+                    Label("Score", systemImage: "cursorarrow.motionlines.click")
+                }
+    
+            GroupView()
+                .tabItem {
+                    Label("Group", systemImage:
+                    "person.3.fill")
+                }
+        }.accentColor(.celesteScuro)
     }
 }
 

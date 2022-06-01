@@ -7,18 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF175005281C9DF4001AEA0C /* ClockFormatterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF175004281C9DF4001AEA0C /* ClockFormatterUtility.swift */; };
+		AF175007281CA3BA001AEA0C /* CircuitsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF175006281CA3BA001AEA0C /* CircuitsInfo.swift */; };
+		AF326C11282C7A2000A8DC91 /* VideoSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF326C10282C7A2000A8DC91 /* VideoSelector.swift */; };
 		AF43BDD128035096004E2001 /* CTeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43BDD028035096004E2001 /* CTeamApp.swift */; };
 		AF43BDD328035096004E2001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43BDD228035096004E2001 /* ContentView.swift */; };
 		AF43BDD528035098004E2001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF43BDD428035098004E2001 /* Assets.xcassets */; };
 		AF43BDD828035098004E2001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF43BDD728035098004E2001 /* Preview Assets.xcassets */; };
+		AF98B181281455C400FB45B0 /* BubbleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98B180281455C400FB45B0 /* BubbleText.swift */; };
+		AF98B18328188D6700FB45B0 /* segmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98B18228188D6700FB45B0 /* segmentedControl.swift */; };
+		AF98B18528188D7C00FB45B0 /* RectPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98B18428188D7B00FB45B0 /* RectPreferenceKey.swift */; };
+		AF98B18728188E3000FB45B0 /* UnderlineModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98B18628188E3000FB45B0 /* UnderlineModifier.swift */; };
+		AF98B18B2818900900FB45B0 /* ScoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98B18A2818900900FB45B0 /* ScoreInfoView.swift */; };
+		AF98B18D2818904C00FB45B0 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98B18C2818904C00FB45B0 /* Scores.swift */; };
+		AFA5C5A1282C563F000076AC /* LiveTrackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C5A0282C563F000076AC /* LiveTrackDemo.swift */; };
+		AFA5C5A3282C5698000076AC /* TappablePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C5A2282C5698000076AC /* TappablePoint.swift */; };
+		AFA5C5A7282C6602000076AC /* DummyRentalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C5A6282C6602000076AC /* DummyRentalView.swift */; };
+		AFA5C5A9282C6B54000076AC /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C5A8282C6B54000076AC /* Cars.swift */; };
+		AFA5C5AB282C6C8C000076AC /* LabelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C5AA282C6C8C000076AC /* LabelDetail.swift */; };
+		AFD515F12804A35D001CD425 /* CircuitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD515F02804A35D001CD425 /* CircuitsView.swift */; };
+		AFD515F32804A395001CD425 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD515F22804A395001CD425 /* ScoreView.swift */; };
+		AFD515F52804A3B0001CD425 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD515F42804A3B0001CD425 /* GroupView.swift */; };
+		AFD515F72804A594001CD425 /* Circuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD515F62804A594001CD425 /* Circuits.swift */; };
+		AFD515F92804A9C5001CD425 /* CircuitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD515F82804A9C4001CD425 /* CircuitCardView.swift */; };
+		AFD515FE280B2D10001CD425 /* ColoriSociali.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD515FD280B2D10001CD425 /* ColoriSociali.swift */; };
+		AFD51602280B315D001CD425 /* ColoredNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51601280B315D001CD425 /* ColoredNavigationView.swift */; };
+		AFD51604280B3B92001CD425 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51603280B3B92001CD425 /* InformationView.swift */; };
+		AFD51606280B3EF1001CD425 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51605280B3EF1001CD425 /* ListRow.swift */; };
+		AFD51609280F5C22001CD425 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD5160B280F5C22001CD425 /* Localizable.strings */; };
+		AFD5160D280F5D3C001CD425 /* LocalizationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD5160C280F5D3C001CD425 /* LocalizationUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF175004281C9DF4001AEA0C /* ClockFormatterUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFormatterUtility.swift; sourceTree = "<group>"; };
+		AF175006281CA3BA001AEA0C /* CircuitsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitsInfo.swift; sourceTree = "<group>"; };
+		AF326C10282C7A2000A8DC91 /* VideoSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSelector.swift; sourceTree = "<group>"; };
 		AF43BDCD28035096004E2001 /* CTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF43BDD028035096004E2001 /* CTeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTeamApp.swift; sourceTree = "<group>"; };
 		AF43BDD228035096004E2001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF43BDD428035098004E2001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF43BDD728035098004E2001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF98B17C280F675000FB45B0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AF98B180281455C400FB45B0 /* BubbleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleText.swift; sourceTree = "<group>"; };
+		AF98B18228188D6700FB45B0 /* segmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segmentedControl.swift; sourceTree = "<group>"; };
+		AF98B18428188D7B00FB45B0 /* RectPreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectPreferenceKey.swift; sourceTree = "<group>"; };
+		AF98B18628188E3000FB45B0 /* UnderlineModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineModifier.swift; sourceTree = "<group>"; };
+		AF98B18A2818900900FB45B0 /* ScoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreInfoView.swift; sourceTree = "<group>"; };
+		AF98B18C2818904C00FB45B0 /* Scores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		AFA5C5A0282C563F000076AC /* LiveTrackDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTrackDemo.swift; sourceTree = "<group>"; };
+		AFA5C5A2282C5698000076AC /* TappablePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappablePoint.swift; sourceTree = "<group>"; };
+		AFA5C5A6282C6602000076AC /* DummyRentalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRentalView.swift; sourceTree = "<group>"; };
+		AFA5C5A8282C6B54000076AC /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		AFA5C5AA282C6C8C000076AC /* LabelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDetail.swift; sourceTree = "<group>"; };
+		AFD515F02804A35D001CD425 /* CircuitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitsView.swift; sourceTree = "<group>"; };
+		AFD515F22804A395001CD425 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		AFD515F42804A3B0001CD425 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		AFD515F62804A594001CD425 /* Circuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circuits.swift; sourceTree = "<group>"; };
+		AFD515F82804A9C4001CD425 /* CircuitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitCardView.swift; sourceTree = "<group>"; };
+		AFD515FC280B2CAE001CD425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AFD515FD280B2D10001CD425 /* ColoriSociali.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoriSociali.swift; sourceTree = "<group>"; };
+		AFD51601280B315D001CD425 /* ColoredNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredNavigationView.swift; sourceTree = "<group>"; };
+		AFD51603280B3B92001CD425 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		AFD51605280B3EF1001CD425 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		AFD5160A280F5C22001CD425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AFD5160C280F5D3C001CD425 /* LocalizationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +103,36 @@
 		AF43BDCF28035096004E2001 /* CTeam */ = {
 			isa = PBXGroup;
 			children = (
+				AFD515FC280B2CAE001CD425 /* Info.plist */,
 				AF43BDD028035096004E2001 /* CTeamApp.swift */,
 				AF43BDD228035096004E2001 /* ContentView.swift */,
 				AF43BDD428035098004E2001 /* Assets.xcassets */,
 				AF43BDD628035098004E2001 /* Preview Content */,
+				AFD515F02804A35D001CD425 /* CircuitsView.swift */,
+				AF175006281CA3BA001AEA0C /* CircuitsInfo.swift */,
+				AFD515F22804A395001CD425 /* ScoreView.swift */,
+				AF98B18A2818900900FB45B0 /* ScoreInfoView.swift */,
+				AFD515F42804A3B0001CD425 /* GroupView.swift */,
+				AFD515F62804A594001CD425 /* Circuits.swift */,
+				AF98B18C2818904C00FB45B0 /* Scores.swift */,
+				AFD515F82804A9C4001CD425 /* CircuitCardView.swift */,
+				AFD515FD280B2D10001CD425 /* ColoriSociali.swift */,
+				AFD51601280B315D001CD425 /* ColoredNavigationView.swift */,
+				AFD51603280B3B92001CD425 /* InformationView.swift */,
+				AFD51605280B3EF1001CD425 /* ListRow.swift */,
+				AFD5160B280F5C22001CD425 /* Localizable.strings */,
+				AFD5160C280F5D3C001CD425 /* LocalizationUtility.swift */,
+				AF98B180281455C400FB45B0 /* BubbleText.swift */,
+				AF98B18228188D6700FB45B0 /* segmentedControl.swift */,
+				AF98B18428188D7B00FB45B0 /* RectPreferenceKey.swift */,
+				AF98B18628188E3000FB45B0 /* UnderlineModifier.swift */,
+				AF175004281C9DF4001AEA0C /* ClockFormatterUtility.swift */,
+				AFA5C5A0282C563F000076AC /* LiveTrackDemo.swift */,
+				AFA5C5A2282C5698000076AC /* TappablePoint.swift */,
+				AFA5C5A6282C6602000076AC /* DummyRentalView.swift */,
+				AFA5C5A8282C6B54000076AC /* Cars.swift */,
+				AFA5C5AA282C6C8C000076AC /* LabelDetail.swift */,
+				AF326C10282C7A2000A8DC91 /* VideoSelector.swift */,
 			);
 			path = CTeam;
 			sourceTree = "<group>";
@@ -109,6 +187,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = AF43BDC428035096004E2001;
 			productRefGroup = AF43BDCE28035096004E2001 /* Products */;
@@ -127,6 +206,7 @@
 			files = (
 				AF43BDD828035098004E2001 /* Preview Assets.xcassets in Resources */,
 				AF43BDD528035098004E2001 /* Assets.xcassets in Resources */,
+				AFD51609280F5C22001CD425 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,18 +217,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF98B181281455C400FB45B0 /* BubbleText.swift in Sources */,
+				AFD515F12804A35D001CD425 /* CircuitsView.swift in Sources */,
+				AFD515F72804A594001CD425 /* Circuits.swift in Sources */,
+				AFD515FE280B2D10001CD425 /* ColoriSociali.swift in Sources */,
+				AFD515F32804A395001CD425 /* ScoreView.swift in Sources */,
 				AF43BDD328035096004E2001 /* ContentView.swift in Sources */,
+				AF326C11282C7A2000A8DC91 /* VideoSelector.swift in Sources */,
+				AF98B18B2818900900FB45B0 /* ScoreInfoView.swift in Sources */,
+				AF98B18328188D6700FB45B0 /* segmentedControl.swift in Sources */,
+				AFA5C5AB282C6C8C000076AC /* LabelDetail.swift in Sources */,
+				AF98B18728188E3000FB45B0 /* UnderlineModifier.swift in Sources */,
+				AFA5C5A1282C563F000076AC /* LiveTrackDemo.swift in Sources */,
+				AF98B18528188D7C00FB45B0 /* RectPreferenceKey.swift in Sources */,
+				AF175005281C9DF4001AEA0C /* ClockFormatterUtility.swift in Sources */,
+				AF98B18D2818904C00FB45B0 /* Scores.swift in Sources */,
+				AFA5C5A7282C6602000076AC /* DummyRentalView.swift in Sources */,
+				AFD5160D280F5D3C001CD425 /* LocalizationUtility.swift in Sources */,
+				AFD51604280B3B92001CD425 /* InformationView.swift in Sources */,
+				AFD515F92804A9C5001CD425 /* CircuitCardView.swift in Sources */,
+				AF175007281CA3BA001AEA0C /* CircuitsInfo.swift in Sources */,
 				AF43BDD128035096004E2001 /* CTeamApp.swift in Sources */,
+				AFD51606280B3EF1001CD425 /* ListRow.swift in Sources */,
+				AFD51602280B315D001CD425 /* ColoredNavigationView.swift in Sources */,
+				AFD515F52804A3B0001CD425 /* GroupView.swift in Sources */,
+				AFA5C5A9282C6B54000076AC /* Cars.swift in Sources */,
+				AFA5C5A3282C5698000076AC /* TappablePoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFD5160B280F5C22001CD425 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD5160A280F5C22001CD425 /* en */,
+				AF98B17C280F675000FB45B0 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF43BDD928035098004E2001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -210,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -269,14 +387,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CTeam/Preview Content\"";
+				DEVELOPMENT_TEAM = RRQX2W7VQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CTeam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,14 +418,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CTeam/Preview Content\"";
+				DEVELOPMENT_TEAM = RRQX2W7VQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CTeam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
