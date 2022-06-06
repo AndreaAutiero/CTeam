@@ -15,7 +15,7 @@ struct DummyRentalView: View {
         VStack {
             HStack {
                 Spacer()
-                DatePicker("ui.rental.dttm".localized, selection: $dttm).labelsHidden()
+                DatePicker("ui.rental.dttm".localized, selection: $dttm).labelsHidden().accentColor(.black)
                 Spacer()
             }.padding()
             HStack {
@@ -30,10 +30,10 @@ struct DummyRentalView: View {
             }.padding()
             Divider()
             VStack {
-                LabelDetail(label: "ui.rental.label.volume".localized, detail: String(cars[$selectedIndex.wrappedValue].volume) + " l")
+                LabelDetail(label: "ui.rental.label.volume".localized, detail: String(cars[$selectedIndex.wrappedValue].volume) + " cm³")
                 LabelDetail(label: "ui.rental.label.weight".localized, detail: String(cars[$selectedIndex.wrappedValue].weight) + " kg")
                 LabelDetail(label: "ui.rental.label.maxspeed".localized, detail: String(cars[$selectedIndex.wrappedValue].maxSpeed) + " km/h")
-                LabelDetail(label: "ui.rental.label.horsepower".localized, detail: String(cars[$selectedIndex.wrappedValue].horsepower) + " cv")
+                LabelDetail(label: "ui.rental.label.horsepower".localized, detail: String(cars[$selectedIndex.wrappedValue].horsepower) + " kW")
             }
             Divider()
             HStack {

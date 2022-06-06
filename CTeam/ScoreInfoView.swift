@@ -40,11 +40,11 @@ struct ScoreInfoView: View {
                         if(!displaySectors) {
                             // GIRI
                             HStack {
-                                Text("LAP").frame(width: 32).padding()
+                                Text("LAP".localized).frame(width: 40).padding()
                                 Spacer()
-                                Text("GAP").frame(width: 96).padding()
+                                Text("GAP".localized).frame(width: 92).padding()
                                 Spacer()
-                                Text("TIME").frame(width: 96).padding()
+                                Text("TIME".localized).frame(width: 92).padding()
                             }
                             .foregroundColor(Color.white)
                             .background(Color.init(red: 35/255, green: 36/255, blue: 41/255))
@@ -71,11 +71,11 @@ struct ScoreInfoView: View {
                         } else {
                             // SETTORI
                             HStack {
-                                Text("SECTOR 1").frame(width: 96).padding()
+                                Text("SECTOR 1".localized).frame(width: 96).padding()
                                 Spacer()
-                                Text("SECTOR 2").frame(width: 96).padding()
+                                Text("SECTOR 2".localized).frame(width: 96).padding()
                                 Spacer()
-                                Text("SECTOR 3").frame(width: 96).padding()
+                                Text("SECTOR 3".localized).frame(width: 96).padding()
                             }
                             .foregroundColor(Color.white)
                             .background(Color.init(red: 35/255, green: 36/255, blue: 41/255))

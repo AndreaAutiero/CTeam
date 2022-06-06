@@ -111,10 +111,8 @@
 				AFD515F22804A395001CD425 /* ScoreView.swift */,
 				AF98B18A2818900900FB45B0 /* ScoreInfoView.swift */,
 				AFD515F42804A3B0001CD425 /* GroupView.swift */,
-				AFD515F82804A9C4001CD425 /* CircuitCardView.swift */,
 				AFD51601280B315D001CD425 /* ColoredNavigationView.swift */,
 				AFD51603280B3B92001CD425 /* InformationView.swift */,
-				AF98B180281455C400FB45B0 /* BubbleText.swift */,
 				AFA5C5A0282C563F000076AC /* LiveTrackDemo.swift */,
 				AFA5C5A6282C6602000076AC /* DummyRentalView.swift */,
 				AF326C10282C7A2000A8DC91 /* VideoSelector.swift */,
@@ -153,6 +151,8 @@
 		AF947F972848236B00983253 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				AFD515F82804A9C4001CD425 /* CircuitCardView.swift */,
+				AF98B180281455C400FB45B0 /* BubbleText.swift */,
 				AFA5C5AA282C6C8C000076AC /* LabelDetail.swift */,
 				AFA5C5A2282C5698000076AC /* TappablePoint.swift */,
 				AFD51605280B3EF1001CD425 /* ListRow.swift */,

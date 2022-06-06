@@ -13,7 +13,7 @@ struct CircuitsInfo: View {
         VStack {
             ScrollView {
                 NavigationLink(destination: LiveTrackDemo(photography: Image(uiImage: UIImage(named: circuit.nomeFileImmagineTrack)!), tappableAreas: circuit.tappablePoints, poemString: circuit.storia)) {
-                    CircuitCardView(fileImmagine: circuit.nomeFileImmagineTrack).padding(EdgeInsets(top: 8, leading: 8, bottom: 0, trailing: 8))
+                    CircuitCardView(fileImmagine: circuit.nomeFileImmagineTrack).border(.gray, width: 1).padding(EdgeInsets(top: 8, leading: 8, bottom: 0, trailing: 8))
                 }.overlay(
                     Text("ui.circuit.track".localized)
                         .bold()
@@ -27,7 +27,7 @@ struct CircuitsInfo: View {
                     alignment: .bottomTrailing
                 )
                 NavigationLink(destination: DummyRentalView(dttm: Date())) {
-                    CircuitCardView(fileImmagine: "Render bianco").padding(EdgeInsets(top: 8, leading: 8, bottom: 0, trailing: 8))
+                    CircuitCardView(fileImmagine: "Render bianco").border(.gray, width: 1).padding(EdgeInsets(top: 8, leading: 8, bottom: 0, trailing: 8))
                 }.overlay(
                     Text("ui.circuit.rental".localized)
                         .bold()
