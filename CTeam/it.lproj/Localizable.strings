@@ -49,6 +49,8 @@ Nata nel 2010 fu rifondata nel 2015 con lo scopo di promuovere la progettazione 
 "SECTOR 1" = "SETTORE 1";
 "SECTOR 2" = "SETTORE 2";
 "SECTOR 3" = "SETTORE 3";
+"fakelock.label" = "Devi guadagnare dei Token per vedere questo video";
+"ui.nav.title.dvdvideo" = "Tutti i video";
 
 /*
   Stringhe Circuito Monza
@@ -85,11 +87,11 @@ Nata nel 2010 fu rifondata nel 2015 con lo scopo di promuovere la progettazione 
 
 "vallelunga.curva2" = "Si arriva alla “Cimini 1” e alla “Cimini 2” che sono 2 paraboliche, si scala in terza frenando ai 130 metri , ci si allarga tra “Cimini 1” e “Cimini 2” e si va in quinta fino alla staccata della “Campagnano”.";
  
-"vallelunga,curva3" = "Si frena ai 100 metri prendendo subito la corda e tenendola mettendo la quarta e poi la quinta.";
+"vallelunga.curva3" = "Si frena ai 100 metri prendendo subito la corda e tenendola mettendo la quarta e poi la quinta.";
 
 "vallelunga.curva4" = "Si scala in terza e si frena forte per entrare in curva 8 tenendo il cordolo in uscita.";
 
-"vallelunga.curva5" = "Si entra in curva 9 con la quarta si esce in terza e si punta sull’interno della curvar si prende il punto di corda tenendo il cordolo sulla “Semaforo”.";
+"vallelunga.curva5" = "Si entra in curva 6 con la quarta si esce in terza e si punta sull’interno della curvar si prende il punto di corda tenendo il cordolo sulla “Semaforo”.";
 
 "vallelunga.curva6" = "Si mette la seconda sul “Tornantino” ci si allargara e si esce in seconda.";
 

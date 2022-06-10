@@ -6,8 +6,8 @@
   
 */
 
-"unina.cteam.poem" = "UniNa Corse è un’associazione costituita da docenti ed allievi dell’Università Federico II di Napoli.
-Nata nel 2010 fu rifondata nel 2015 con lo scopo di promuovere la progettazione e realizzazione di un auto da corsa per partecipare al campionato FORMULA SAE.";
+"unina.cteam.poem" = "UniNa Corse is an association made up of professors and students of the Federico II University of Naples.
+Founded in 2010, it was refounded in 2015 with the aim of promoting the design and construction of a racing car to participate in the FORMULA SAE championship.";
 "ui.sendmail" = "Send Feedback";
 "ui.about" = "About Us";
 "ui.chat.template" = "Shout out your first message!";
@@ -35,3 +35,49 @@ Nata nel 2010 fu rifondata nel 2015 con lo scopo di promuovere la progettazione 
 "ui.nav.circuits" = "Circuits";
 "ui.nav.scores" = "Scores";
 "ui.nav.groups" = "Groups";
+"ui.sendmail" = "Send feedback";
+"LAP" = "LAP";
+"GAP" = "GAP";
+"TIME" = "TIME";
+"SECTOR 1" = "SECTOR 1";
+"SECTOR 2" = "SECTOR 2";
+"SECTOR 3" = "SECTOR 3";
+"fakelock.label" = "You should earn Token to watch this video";
+"ui.nav.title.dvdvideo" = "All videos";
+"monza.curva1" = "You pass on the straight with the fifth to put the sixth and reach the maximum speed, you go down to second gear to face the first variant paying attention to the braking point.";
+"monza.curva2" = "Leaving the first variant you face the big curve and put 3 gears with the car in full support, initially taking the rope point and then widening, accelerating almost to the limiter.";
+"monza.curva3" = "You arrive at the variant of the canal, go down 2 gears, tackle the first curve of the second variant and widen at the exit." ;
+"monza.curva4" = "We arrive at the “lesmo curves” where the first is completely Czech and we face a march on the “second of lesmo” on the fourth scale." ;
+"monza.curva5" = "You go downhill to the ascari variant you downshift 2 gear and between the first and second curve of the ascari variant you put the fourth gear widening out to face the parabolic being narrow at the entrance and then widening at the exit.";
+"monza.storia" = "Built in 1922, third in the world after Brooklands and Indianapolis, it has been the scene of some of the greatest sporting and technological innovations. Its flyover (link dedicated page) is unique in the world and important pages of world motoring and scientific research have been written on its curves.";
+"varano.curva1" = "You exit the last corner in third and take the fourth before the finish line, take the fourth almost to the limiter and pay attention to the braking of the first variant because you arrive with wheels that are not quite straight.";
+"varano.curva2" = "You sacrifice the exit of the first of the 2 Ss in order to get out faster in the second of the 2.";
+"varano.curva3" = "You go along the straight with the third limiter and brake hard to enter the parabolic taking the central point of the rope, put the fourth and then re-climb in third on the first S, without braking too much inside the curve otherwise the car breaks down.";
+"varano.curva4" = "As in the first part of the circuit, facing the 2 S, the first is sacrificed, the third is held and the entrance is reduced to curve 6 and then the fourth is placed on the straight";
+"varano.curva5" = "He comes off putting the third to approach curve 9, all in third trying to keep the average speed as high as possible." ;
+"varano.curva6" = "In curve 10 we try to be wider to better approach curve 11.";
+"varano.curva7" = "Finally the last 2 curves 12 and 13 face each other with the same flying angle to always have the same trottle and exit in third." ;
+"varano.storia" = "The Varano Melegari racetrack was born towards the end of 1969 on the initiative of a group of local enthusiasts led by Ennio Dallara, Romano Meggi, Giuseppe Dalla Chiesa, the mayor Giorgio Bonzani and the engineer Giampaolo Dallara; the first track whose asphalt is laid by the company of Cavalier Ennio Dallara, father of the engineer, with the involvement of several truck drivers in the area, measures only 550 meters and, apart from a small variant on the north side, practically delimits the field football club of the country.";
+"varano.descrizione" = "The Varano circuit has a maximum of 14 curves in the 2,350km version. \ NIt reaches a maximum of 182 meters in curve 11, while the width varies from 10 to 12 meters. \ N- The first sector has 2 braking points T1 and T2 while in T3 there is the parabolic to then accelerate up to the first chronometric confirmation. \ n- The second sector is the fastest with the first and second Esse. \ n- The third sector is the most guided and it is also uphill to turn 11 and then downhill to turn 14.";
+"imola.curva1" = "First tambourine curve, where you brake very late and then go full until you get to Villeneuve (curve 2)";
+"imola.curva2" = "Turn 4 is the shear where you use the curb at the exit doing Short shifting; continue up to the Piratella (Turn 5) which you do in full and then get to the most difficult braking of the circuit which is that of the Mineral waters.(Curve 11)" ;
+"imola.curva3" = "You accelerate uphill to the High variant where you take advantage of the whole track, going downhill to Rivazza where you brake very late and finally Rivazza 2 where with the Short Shifting you approach the very long straight that leads at the finish.";
+"imola.storia" = "The Autodromo Internazionale Enzo e Dino Ferrari is universally recognized as a technical and difficult track to interpret and which requires a professional profile to be tackled at a high pace. \ NThe track, which follows the anticlockwise direction of travel, has a layout for both cars that for motorcycles and has a length between 4,909 and 4,936 meters, depending on the configurations. In August 2011, the circuit was also subjected to the resurfacing of the road surface, an operation that involved 70% of the track.";
+
+"vallelunga.curva1" = "You exit the Roma curve in third gear, put the fourth then the fifth, the half curve is done in full and you get to the Big Curve and you get grip on the front trying to round the curve.";
+
+"vallelunga.curva2" = "You get to Cimini 1 and Cimini 2 which are 2 parabolic, you climb to third braking at 130 meters, widen between Cimini 1 and Cimini 2 and go to fifth up to the braking of the Campagnano.";
+ 
+"vallelunga.curva3" = "You brake at 100 meters by immediately taking the rope and holding it by putting the fourth and then the fifth.";
+
+"vallelunga.curva4" = "Climb to third and brake hard to enter turn 8, keeping the curb at the exit.";
+
+"vallelunga.curva5" = "Enter curve 6 with the fourth, exit in third and aim at the inside of the curve, take the point of the rope keeping the curb on the Semaforo.";
+
+"vallelunga.curva6" = "Put the second on the Tornantino, widen and exit in second.";
+
+"vallelunga.curva7" = "You put the third sacrificing the first ESSE trying to stay as internal as possible, you go out and put the fourth.";
+
+"vallelunga.curva8" = "The last curve delays the entry point and widens and goes to the finish line.";
+
+"vallelunga.storia" = "Vallelunga racetrack was born in 1951 from the transformation of a racecourse in Campagnano di Roma. The first car race there was held on December 9 on a sand track. In 1957, on the project of Piero Taruffi, the asphalt track was built which includes two tracks (Internazionale and Club).";

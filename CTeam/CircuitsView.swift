@@ -10,11 +10,19 @@ import SwiftUI
 struct CircuitsView: View {
     @State private var searchText = ""
 
+    var filteredCircuits: [Circuit] {
+        if(searchText.isEmpty) {
+            return circuits
+        } else {
+            return circuits.filter { $0.nome.contains(searchText) }
+        }
+    }
+
     var body: some View {
         ColoredNavigationView {
             VStack {
                 ScrollView {
-                    ForEach(circuits, id: \.self) { c in
+                    ForEach(filteredCircuits, id: \.self) { c in
                         NavigationLink(destination: CircuitsInfo(circuit: c)) {
                             CircuitCardView(fileImmagine: c.nomeFileImmagineCircuito)
                         }
@@ -25,7 +33,7 @@ struct CircuitsView: View {
             }
             .navigationTitle("ui.nav.circuits".localized)
             .navigationBarTitleDisplayMode(.large)
-            .searchable(text: $searchText)
+            .searchable(text: $searchText).foregroundColor(.white)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: InformationView()) {

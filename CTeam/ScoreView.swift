@@ -9,11 +9,22 @@ import SwiftUI
 
 struct ScoreView: View {
     @State var selectedIndex: Int = 0
+    
+    @State private var searchText = ""
+
+    var filteredCircuits: [Circuit] {
+        if(searchText.isEmpty) {
+            return circuits
+        } else {
+            return circuits.filter { $0.nome.contains(searchText) }
+        }
+    }
+
     var body: some View {
         ColoredNavigationView {
             VStack {
                 ScrollView {
-                    ForEach(circuits, id: \.self) { c in
+                    ForEach(filteredCircuits, id: \.self) { c in
                         NavigationLink(destination: ScoreInfoView(score: scores.filter({s in s.nome == c.nome}).first!)) {
                             CircuitCardView(fileImmagine: c.nomeFileImmagineCircuito)
                         }
@@ -25,6 +36,7 @@ struct ScoreView: View {
             }
             .navigationTitle("ui.nav.scores".localized)
             .navigationBarTitleDisplayMode(.large)
+            .searchable(text: $searchText).foregroundColor(.white)
         }
     }
 }
